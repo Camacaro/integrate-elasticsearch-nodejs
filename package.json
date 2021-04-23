@@ -1,0 +1,16 @@
+{
+  "name": "integrate-elasticsearch-nodejs",
+  "version": "1.0.0",
+  "description": "POC integrate elasticsearch nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesus Camacaro",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "elasticsearch": "^16.7.2",
+    "highland": "^2.13.5"
+  }
+}

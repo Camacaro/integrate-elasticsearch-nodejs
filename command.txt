@@ -1,0 +1,5 @@
+Elasticsearch
+$ docker run -p 9200:9200 -p 9300:9300 --name dev-elasticsearch -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.12.0
+
+Kibana
+$ docker run --link dev-elasticsearch:elasticsearch -p 5601:5601 --name dev-kibana docker.elastic.co/kibana/kibana:7.12.0
